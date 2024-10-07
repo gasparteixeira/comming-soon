@@ -1,0 +1,15 @@
+.title {
+    margin-top: 70px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 36px;
+    color: hsl(0, 6%, 24%);
+    text-transform: uppercase;
+    max-width: 192px;
+    line-height: 34px;
+    letter-spacing: 9px;
+}
+
+.red-text {
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+}
