@@ -13,3 +13,10 @@
     color: var(--desaturatedRed);
     font-weight: 300;
 }
+
+@media screen and (max-width: 375px) {
+    .title {
+        margin-top: 56px;
+        text-align: center;
+    }
+}

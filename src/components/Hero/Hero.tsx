@@ -3,8 +3,8 @@ import heroImage from '../../assets/images/hero-desktop.jpg';
 const Hero = () => {
     return (
         <div className='hero'>
-        <img src={heroImage} className="hero-img" alt="Hero Image" />
-    </div>
+            <img src={heroImage} className="hero-img" alt="Hero Image" />
+        </div>
     )
 }
 

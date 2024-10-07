@@ -1,6 +1,7 @@
 
 :root {
  font-size: 16px;
+ /* variables */
  --desaturatedRed: 	#ce9797;
  --softRed: #f96262;
  --darkGrayishRed: 	#413a3a;

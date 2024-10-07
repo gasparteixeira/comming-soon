@@ -18,10 +18,25 @@ main {
 }
 
 .page {
+    display: flex;
     flex: 1;
+    flex-direction: column;
     padding-left: 85px;
     padding-top: 32px;
     background: url("../assets/images/bg-pattern-desktop.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+
+@media screen and (max-width: 375px) {
+    main {
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    } 
+    .page {
+        padding-left: 0;
+        align-items: center;
+    }
+  }
